@@ -4,7 +4,7 @@ target = 'x86_64-unknown-linux-gnu'
 linker = '/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android24-clang'
 rustflags = [
     '-L',
-    '/home/modprog/Dokumente/Development/Web/actual-andi/src-tauri/.cargo',
+    '/home/modprog/Dokumente/Development/Web/andi/src-tauri/.cargo',
     '-Clink-arg=-landroid',
     '-Clink-arg=-llog',
     '-Clink-arg=-lOpenSLES',
@@ -14,7 +14,7 @@ rustflags = [
 linker = '/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi24-clang'
 rustflags = [
     '-L',
-    '/home/modprog/Dokumente/Development/Web/actual-andi/src-tauri/.cargo',
+    '/home/modprog/Dokumente/Development/Web/andi/src-tauri/.cargo',
     '-Clink-arg=-landroid',
     '-Clink-arg=-llog',
     '-Clink-arg=-lOpenSLES',
@@ -24,7 +24,7 @@ rustflags = [
 linker = '/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android24-clang'
 rustflags = [
     '-L',
-    '/home/modprog/Dokumente/Development/Web/actual-andi/src-tauri/.cargo',
+    '/home/modprog/Dokumente/Development/Web/andi/src-tauri/.cargo',
     '-Clink-arg=-landroid',
     '-Clink-arg=-llog',
     '-Clink-arg=-lOpenSLES',
@@ -34,7 +34,7 @@ rustflags = [
 linker = '/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android24-clang'
 rustflags = [
     '-L',
-    '/home/modprog/Dokumente/Development/Web/actual-andi/src-tauri/.cargo',
+    '/home/modprog/Dokumente/Development/Web/andi/src-tauri/.cargo',
     '-Clink-arg=-landroid',
     '-Clink-arg=-llog',
     '-Clink-arg=-lOpenSLES',
